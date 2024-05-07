@@ -1,10 +1,16 @@
 import streamlit as st
+import pandas as pd
+import altair as alt
 
 st.set_page_config(layout="wide")
 
 st.title('Menstrual Knowledge Quiz')
 
-df = pd.read_csv("Survey_Responses_Cleaned - Sheet1.csv")
+@st.cache_data
+def load_data(csv):
+    df=pd.read_csv(csv)
+    return df
+df = load_data('Survey_Responses_Cleaned - Sheet1.csv')
 
 tab1, tab2 = st.tabs(["Quiz 📝", "Answers 📊"])
 
