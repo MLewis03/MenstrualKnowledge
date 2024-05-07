@@ -1,4 +1,4 @@
-# MenstrualKnowledge
+# Menstrual Knowledge
 
 For my team's Spring 2024 Senior Capstone project, we conducted a survey among UNC Charlotte students about menstrual cycles.
 
