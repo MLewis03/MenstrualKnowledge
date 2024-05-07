@@ -14,4 +14,4 @@ At the end, balloons fly up, the score is displayed, and a notification pops up 
 
 On the answers tab, for each question, the question is displayed followed by the correct answer, the source cited in the capstone paper, and a histogram of responses from the capstone sample.
 
-Here is the link to the completed streamlit app: https://mlewis03-menstrualknowledge-app-cwns0f.streamlit.app/ 
+Here is the link to the completed streamlit app: [https://mlewis03-menstrualknowledge-app-cwns0f.streamlit.app/ ](https://mlewis03-menstrualknowledge-app-cwns0f.streamlit.app/)
