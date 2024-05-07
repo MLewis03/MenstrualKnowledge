@@ -45,19 +45,14 @@ with tab1:
             score = 0
             if selected_length == "28 Days":
                     score += 1
-
             if selected_window == "A Few Days Before Ovulation":
                     score += 1
-
             if selected_days == "Six Days":
                     score += 1
-
             if selected_order == "Menstruation, Follicular Phase, Ovulation, Luteal Phase":
                     score += 1
-
             if selected_hormone == "Luteinizing Hormone":
                     score += 1
-
             if selected_loss == "Quarter Cup":
                     score += 1
             st.success("Your total score is: " + str(score) + "!") 
